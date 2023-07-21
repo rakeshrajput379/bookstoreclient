@@ -10,8 +10,8 @@ export default function Cart() {
       <div className="cart-page-container">
         <table>
           <tr>
-            <td>Name</td>
-            <td>Color</td>
+            <td>Name:</td>
+            <td>Color:</td>
             <td>Price</td>
             <td>Category</td>
           </tr>
