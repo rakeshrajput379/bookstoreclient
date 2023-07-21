@@ -13,6 +13,61 @@
   }
 }
 
+.header{
+  background-color: yellow;
+  height: 100px;
+}
+
+.cart-div {
+  float: right;
+  margin: 25px;
+  position: relative;
+}
+
+.cart-div img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  float: left;
+  margin: 0;
+  padding: px;
+}
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: white;
+  top: -10px;
+  align-content: center;
+}
+
+.product-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+
+  border: 1px solid;
+  border-color: #282c34;
+  margin: 20px;
+  padding: 20px;
+}
+
+.product-container img {
+  width: 200px;
+  height: 200px;
+  border: 1px;
+  border-radius: 20.fr;
+  border-color: black;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
