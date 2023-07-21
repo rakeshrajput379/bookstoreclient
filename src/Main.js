@@ -18,7 +18,7 @@ export default function Main() {
 
   useEffect(() => {
     dispatch(productList());
-  }, []);
+  });
 
   return (
     <div>
@@ -26,7 +26,7 @@ export default function Main() {
       <div className="product-container">
         {data.map((item) => (
           <div className="product-item">
-            <img src={addToCartImg}></img>
+            <img src={addToCartImg} alt=""></img>
             <div>Name:{item.name}</div>
             <div>Name:{item.category}</div>
             <div>Name:{item.price}</div>
